@@ -1,1 +1,53 @@
 /* app global css */
+:root {
+    --primary-color: #2D2690;
+    --primary-background: #ffffff;
+    --light-black: #4c4c4c;
+    --lighter-black: #9CA3A7;
+    --lightest-black: #f6f6f6;
+    --font-weight-bold: 600; 
+}
+
+body {
+    background: var(--lightest-black);
+}
+
+.bg-white, header, .header-link {
+    background-color: var(--primary-background);
+}
+
+.text-white {
+    color: var(--primary-background);
+}
+
+.text-black, header {
+    color: var(--light-black);
+}
+
+.text-purple, .header-link--purple, .header-text--purple {
+    color: var(--primary-color) !important;
+}
+
+.header-text--purple {
+    font-size: 1.5em;
+    font-weight: var(--font-weight-bold);
+}
+
+.header-link--black {
+    background-color: var(--light-black);
+}
+
+.header-link,  .q-tab__label {
+    font-size: 1.01em;
+    font-weight: var(--font-weight-bold);
+}
+
+.q-tab__icon {
+    font-size: 1.2em;
+}
+
+
+
+
+
+

@@ -34,13 +34,13 @@ module.exports = function (/* ctx */) {
     extras: [
       // 'ionicons-v4',
       // 'mdi-v5',
-      // 'fontawesome-v6',
+      'fontawesome-v6',
       // 'eva-icons',
       // 'themify',
       // 'line-awesome',
       // 'roboto-font-latin-ext', // this or either 'roboto-font', NEVER both!
 
-      'roboto-font', // optional, you are not bound to it
+      // 'roboto-font', // optional, you are not bound to it
       'material-icons', // optional, you are not bound to it
     ],
 
@@ -95,7 +95,8 @@ module.exports = function (/* ctx */) {
       // directives: [],
 
       // Quasar plugins
-      plugins: []
+      plugins: [],
+      // cssAddon: true
     },
 
     // animations: 'all', // --- includes all animations
@@ -117,8 +118,8 @@ module.exports = function (/* ctx */) {
         description: `A Quasar Project`,
         display: 'standalone',
         orientation: 'portrait',
-        background_color: '#ffffff',
-        theme_color: '#027be3',
+        background_color: '#f6f6f6',
+        theme_color: '#f6f6f6',
         icons: [
           {
             src: 'icons/icon-128x128.png',
