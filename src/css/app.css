@@ -3,6 +3,7 @@
     --primary-color: #2D2690;
     --primary-background: #ffffff;
     --light-black: #4c4c4c;
+    --dark-black: #2B2A31;
     --lighter-black: #9CA3A7;
     --lightest-black: #f6f6f6;
     --font-weight-bold: 600; 
@@ -21,8 +22,14 @@ body {
     color: var(--primary-background);
 }
 
-.text-black, header {
+.text-light--black {
     color: var(--light-black);
+    opacity: 0.5;
+    font-weight: 700;
+}
+
+.text-dark--black, .header-link {
+    color: var(--dark-black);
 }
 
 .text-purple, .header-link--purple, .header-text--purple {
@@ -45,6 +52,35 @@ body {
 
 .q-tab__icon {
     font-size: 1.2em;
+}
+
+.banner-purple-gradient {
+    background: var(--primary-color);
+    background: radial-gradient(circle, #2d2690 0%, #3c33bc 25%, #2a3aac 79%);
+}
+
+.bg-purple {
+    background: var(--primary-color) !important;
+}
+
+.border-radius-round-15 {
+    border-radius: 15px;
+}
+
+.border-radius-round-25 {
+    border-radius: 25px;
+}
+
+.text-faded-0-5 {
+    opacity: 0.5;
+}
+
+.divider {
+    opacity: 0.2;
+}
+
+.fs-14-px {
+    font-size: 14px;
 }
 
 

@@ -6,7 +6,7 @@
         </q-toolbar-title>
 
         <div class="text-center">
-            <q-tabs dense active-class="header-link--purple" align="center" inline-label shrink class="text-black">
+            <q-tabs dense active-class="header-link--purple" align="center" inline-label shrink class="text-dark--black">
                 <q-route-tab 
                     :key="tabItem.name"
                     :to="tabItem.link"
@@ -40,7 +40,7 @@ export default {
                     icon: 'description',
                     name: 'invoices',
                     label: 'Invoices',
-                    link: '/#'
+                    link: '/invoice'
                 },
                 {
                     icon: 'account_balance_wallet',
