@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-import storeModule from './store-module'
+import invoiceModule from './invoice-module'
 
 Vue.use(Vuex)
 
@@ -16,8 +16,9 @@ Vue.use(Vuex)
 
 export default function (/* { ssrContext } */) {
   const Store = new Vuex.Store({
+    
     modules: {
-      storeModule
+      invoices: invoiceModule,
     },
 
     // enable strict mode (adds overhead!)
